@@ -1,0 +1,160 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <!-- Latest compiled and minified CSS & JS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <!-- Font Awesome Glyphicons -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+      <!-- Chosen -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+      <div class="container">
+
+        <h2>Survey Questions</h2>
+        <hr>
+
+    <form method="post" action = "adduser">
+
+            <fieldset>        
+                   <legend><H4>Your Name</H4></legend>
+                            <input type="text" id="personname">
+            </fieldset>
+            <br>
+
+            <fieldset>        
+                   <legend><H4>Your Picture</H4></legend>
+                            <input type="text" id ="pix" size='45'>
+            </fieldset>
+            <br>
+
+            <fieldset class="chosen" id="question1">      
+                   <legend><H4>Do you believe at love at first sight?</H4></legend>
+                            <input type="radio" name="question1" id = "Q1" value="5" />Strongly Agree
+                            <input type="radio" name="question1" id = "Q1" value="4" />Agree
+                            <input type="radio" name="question1" id = "Q1" value="3 "/>Not Sure
+                            <input type="radio" name="question1" id = "Q1" value="2" />Do Not Agree
+                            <input type="radio" name="question1" id = "Q1" value="1" />Strongly Disagree<br />
+                            
+                            
+            </fieldset class="chosen" id="question2">
+            <br>
+            <fieldset>        
+                   <legend><H4>Having a person with a good personally is important?</H4></legend>
+                            <input type="radio" name="question2" id = "Q2" value="5" />Strongly Agree
+                            <input type="radio" name="question2" id = "Q2" value="4" />Agree
+                            <input type="radio" name="question2" id = "Q2" value="3 "/>Not Sure
+                            <input type="radio" name="question2" id = "Q2" value="2" />Do Not Agree
+                            <input type="radio" name="question2" id = "Q2" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question3">        
+                   <legend><H4>Coming from a good family is important?</H4></legend>
+                            <input type="radio" name="question3" id ="Q3" value="5" />Strongly Agree
+                            <input type="radio" name="question3" id ="Q3" value="4" />Agree
+                            <input type="radio" name="question3" id ="Q3" value="3" />Not Sure
+                            <input type="radio" name="question3" id ="Q3" value="2" />Do Not Agree
+                            <input type="radio" name="question3" id ="Q3" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question4">
+                   <legend><H4>Religon must be important?</H4></legend>
+                            <input type="radio" name="question4" id ="Q4" value="5" />Strongly Agree
+                            <input type="radio" name="question4" id ="Q4" value="4" />Agree
+                            <input type="radio" name="question4" id ="Q4" value="3" />Not Sure
+                            <input type="radio" name="question4" id ="Q4" value="2" />Do Not Agree
+                            <input type="radio" name="question4" id ="Q4" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question5">                
+                   <legend><H4>The person must be from the same ethic background?</H4></legend>
+                            <input type="radio" name="question5" id ="Q5" value="5" />Strongly Agree
+                            <input type="radio" name="question5" id ="Q5" value="4" />Agree
+                            <input type="radio" name="question5" id ="Q5" value="3" />Not Sure
+                            <input type="radio" name="question5" id ="Q5" value="2" />Do Not Agree
+                            <input type="radio" name="question5" id ="Q5" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question6">                
+                   <legend><H4>The person must have a good education?</H4></legend>
+                            <input type="radio" name="question6" id ="Q6" value="5" />Strongly Agree
+                            <input type="radio" name="question6" id ="Q6" value="4" />Agree
+                            <input type="radio" name="question6" id ="Q6" value="3" />Not Sure
+                            <input type="radio" name="question6" id ="Q6" value="2" />Do Not Agree
+                            <input type="radio" name="question6" id ="Q6" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+           
+            <fieldset class="chosen" id="question7">                
+                   <legend><H4>The person must have good friends</H4></legend>
+                            <input type="radio" name="question7" id ="Q7" value="5" />Strongly Agree
+                            <input type="radio" name="question7" id ="Q7" value="4" />Agree
+                            <input type="radio" name="question7" id ="Q7" value="3" />Not Sure
+                            <input type="radio" name="question7" id ="Q7" value="2" />Do Not Agree
+                            <input type="radio" name="question7" id ="Q7" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question8">                
+                   <legend><H4>I would not marry a divorcee</H4></legend>
+                            <input type="radio" name="question8" id ="Q8" value="5" />Strongly Agree
+                            <input type="radio" name="question8" id ="Q8" value="4" />Agree
+                            <input type="radio" name="question8" id ="Q8" value="3" />Not Sure
+                            <input type="radio" name="question8" id ="Q8" value="2" />Do Not Agree
+                            <input type="radio" name="question8" id ="Q8" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+            <fieldset class="chosen" id="question9">                
+                   <legend><H4>I will not date a person who has children</H4></legend>
+                            <input type="radio" name="question9" id ="Q9" value="5" />Strongly Agree>
+                            <input type="radio" name="question9" id ="Q9" value="4" />Agree>
+                            <input type="radio" name="question9" id ="Q9" value="3" />Not Sure>
+                            <input type="radio" name="question9" id ="Q9" value="2" />Do Not Agree
+                            <input type="radio" name="question9" id ="Q9" value="1" />Strongly Disagree<br />
+            </fieldset>
+            <br>
+
+            <fieldset class="chosen" id="question10">                
+                   <legend><H4>Are you opposed to living in the city?</H4></legend>
+                            <input type="radio" name="question10" id ="Q10" value="5" />Strongly Agree
+                            <input type="radio" name="question10" id ="Q10" value="4" />Agree
+                            <input type="radio" name="question10" id ="Q10" value="3" />Not Sure
+                            <input type="radio" name="question10" id ="Q10" value="2" />Do Not Agree
+                            <input type="radio" name="question10" id ="Q10" value="1" />Strongly Disagree <br />
+            </fieldset>
+            <br>        
+            <br>        
+            <input type="submit" value="Submit now" id="buttonsubmit"/>
+    </form>
+    </div>
+      <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><strong>Best Match</strong></h2>
+            </div>
+            <div class="modal-body">
+              <h2 id="match-name"></h2>
+              <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <script src="js/add.js" type="text/javascript"></script>
+
+    </body>
+    </html>
